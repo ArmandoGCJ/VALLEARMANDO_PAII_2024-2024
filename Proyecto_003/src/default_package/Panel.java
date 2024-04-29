@@ -18,11 +18,11 @@ public class Panel extends JFrame {
 	@Override
     public void paint(Graphics g) {
         super.paint(g);
-        g.setColor(Color.blue); 
+        g.setColor(Color.BLACK); 
         g.fillRect(0, 0, getWidth(), getHeight()); 
         
         int yLinea = (int) (getHeight() * 0.80);
-        g.setColor(Color.BLACK);
+        g.setColor(Color.RED);
         g.drawLine(0, yLinea, getWidth(), yLinea);
         ship.drawable(g);
         enemies.drawable(g);

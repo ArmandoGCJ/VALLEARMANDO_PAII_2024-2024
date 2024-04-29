@@ -2,6 +2,8 @@ package default_package;
 
 import javax.swing.*;
 
+//Autor : Nelson Armando Valle Garcia
+
 public class Galaxia {
 	public static void main(String[] args) {
 		SwingUtilities.invokeLater(new Runnable() {
